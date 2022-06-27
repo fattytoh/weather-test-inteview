@@ -1,7 +1,13 @@
 .outer-box{
-    width: 33.333%;
+    width: 50%;
     padding:10px;
     position: relative;
+}
+
+@media screen and (min-width: 767px) {
+    .outer-box{
+        width: 33.333%;
+    }
 }
 
 .black-delete{
