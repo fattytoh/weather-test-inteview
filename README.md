@@ -7,7 +7,7 @@
 <p>Step</p>
 <ol>
     <li>Create a folder and cd into it</li>
-    <li>Enter command : git clone https://github.com/fattytoh/weather-test-inteview.git</li>
+    <li>Enter command : git clone https://github.com/fattytoh/weather-test-inteview.git .</li>
     <li>After complete download, enter command : composer install</li>
     <li>Once the install is done enter comand : npm install</li>
     <li>After that: npm run watch Or npm run dev</li>
