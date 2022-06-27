@@ -1,0 +1,34 @@
+.outer-box{
+    width: 33.333%;
+    padding:10px;
+    position: relative;
+}
+
+.black-delete{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    transition: 1s ease-in-out;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.inner-del{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.weather-img{
+    width: 100%;
+}
+
+.outer-box:hover .black-delete{
+    display: block;
+}
